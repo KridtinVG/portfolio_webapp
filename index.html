@@ -20,20 +20,20 @@
   
     function musicButton() {
       if (playMusic == true) {
-        return <>
+        return <div>
           
           <button className="nav-item" onClick={musicHandleclick}>
             <FontAwesomeIcon icon={faMusic} />
           </button>
-        </>
+        </div>
       }
       else if (playMusic == false) {
-        return <>
+        return <div>
         <AudioPlayer src={backgroundAudio} autoPlay loop volume={0.08}/>
           <button className="nav-item" onClick={musicHandleclick}>
             <FontAwesomeIcon icon={faVolumeXmark} />
           </button>
-        </>
+        </div>
     }
   }
   return(
