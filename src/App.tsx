@@ -57,6 +57,15 @@ function App() {
           <img src="https://lh3.googleusercontent.com/a/ACg8ocLdfBdzxQOBI9kwoni1IHpVuB_Ep33HL8gPJcYBQSXwcA=s288-c-no" alt="proflie" className='profile' />
         </div>
         <ReactTypingEffect text={["Interested in computer technology and systems to developing systems with computer languages.","My goal is to improve myself. and the organization for maximum benefit."]} speed={30} eraseDelay={5000} eraseSpeed={10} className='typingeffect'/>
+        <div className="skillMe">Skills</div>
+        <div className="imgBox">
+        <img src="https://assets.dryicons.com/uploads/icon/preview/11245/small_1x_2366ffb9-7a22-4f76-b6e2-b13da953b1c6.png" width={80}></img>
+        <img src="https://www.clipartmax.com/png/middle/470-4707396_javascript-icon-html-css-js-icons.png" width={80}></img>
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" width={80}></img>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width={80}></img>
+        <img src="https://static-00.iconduck.com/assets.00/file-type-angular-icon-1907x2048-tobdkjt1.png" width={80}></img>
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" width={80}></img>
+</div>
       </div>
   )
   }

@@ -2,6 +2,7 @@
   "name": "portfolio_webapp",
   "private": true,
   "version": "0.0.0",
+  "homepage": "www.google.com",
   "type": "module",
   "scripts": {
     "dev": "vite",

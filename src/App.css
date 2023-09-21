@@ -5,20 +5,9 @@
   display: grid;
   width: 100vw;
   height: 100vh;
+  background-color: antiquewhite;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
 
 .card {
@@ -35,9 +24,20 @@
 
 }
 .navbarCustome{
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(210, 172, 134);
 }
 
 .typingeffect{
+  display: block;
   font-size: 26px;
+  height: 20%;
+}
+.skillMe{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+img{
+  margin: 5px;
 }
