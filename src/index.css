@@ -1,9 +1,25 @@
+*{
+  font-size: 1rem;
+}
 body {
   margin: 0;
+  display: grid;
+  background-color: antiquewhite;
+}
+
+html{
+  font-size: calc(60% + 0.8vm);
+}
+
+.project-container {
   display: flex;
-  align-items: flex-start;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 50rem;
+  padding: 1rem;
 }
 
 h1 {
@@ -18,7 +34,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ffffff;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -30,10 +46,9 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+@media (min-width: 768px) {
   :root {
     color: #213547;
-    background-color: #ffffff;
   }
   a:hover {
     color: #747bff;
@@ -41,4 +56,53 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
+
+  .project-container{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contacts-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+
+}
+@media (max-width: 912px) {
+  :root {
+    color: #213547;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+
+
+  .project-container{
+    margin-top: 20%;
+    justify-content: center;
+  }
+
+  .contacts-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+
+}
+.container {
+  width: 100%;
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container */
+}
+img {
+  max-width: 100%;
+  height: auto;
 }

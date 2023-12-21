@@ -18,11 +18,13 @@
     "react-audio-player": "^0.17.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
+    "react-scroll": "^1.9.0",
     "react-typing-effect": "^2.0.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
+    "@types/react-scroll": "^1.8.10",
     "@types/react-typing-effect": "^2.0.3",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
